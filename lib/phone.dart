@@ -23,7 +23,7 @@ class _PhoneNumberScreenState extends State<PhoneNumberScreen> {
     }
 
     if (!phoneNumber.startsWith('+')) {
-      String countryCode = '+57'; 
+      String countryCode = '+57 '; 
       phoneNumber = countryCode + phoneNumber;
     }
 
